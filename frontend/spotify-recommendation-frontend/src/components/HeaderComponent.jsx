@@ -1,11 +1,11 @@
-import "../styles/header.css"
+import "../styles/header.css";
 
 export default function HeaderComponent(){
     return(
         <div className="header">
-            <div className="logo">
+            <a className="logo" href="/">
                 <h1>Playlist<span>AI</span></h1>
-            </div>
+            </a>
         </div>
     )
 }

@@ -1,7 +1,13 @@
 .header{
+    padding: 30px 0;
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+.logo{
+    color: var(--app-black);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .header span{
@@ -9,5 +15,5 @@
 }
 
 @media screen and (min-width: 768px){
-    
+
 }
