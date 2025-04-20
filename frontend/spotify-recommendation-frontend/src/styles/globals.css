@@ -53,6 +53,18 @@ body{
     padding: 0 20px;
 }
 
+.footer{
+    margin-top: auto;
+    padding: 30px 0;
+    text-align: center;
+    color: var(--dark-gray);
+    border-top: 1px solid var(--light-gray);
+}
+
+.footer p{
+    margin: 5px 0;
+}
+
 @media screen and (min-width: 768px){
     .hero h1{
         font-size: 2em;

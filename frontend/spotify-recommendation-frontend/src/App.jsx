@@ -3,6 +3,7 @@ import "./styles/globals.css"
 import HeaderComponent from "./components/HeaderComponent";
 import HeroComponent from './components/HeroComponent';
 import FeatureComponent from './components/FeatureComponent';
+import FooterComponent from './components/FooterComponent';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <HeroComponent />
         <FeatureComponent />
       </main>
+      <FooterComponent />      
     </div>
   )
 }
