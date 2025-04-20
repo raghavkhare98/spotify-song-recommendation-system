@@ -1,0 +1,29 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.feature{
+    flex: 1;
+    margin: 1em;
+}
+
+.feature h3{
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: var(--app-black)
+}
+
+@media screen and (min-width: 768px){
+    .features{
+        flex-direction: row;
+    }
+    
+    .feature{
+        padding: 0 20px;
+    }
+}
